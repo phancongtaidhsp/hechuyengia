@@ -24,6 +24,7 @@ body{
 .above{
   border: 1px solid black;
   margin-bottom: 16px;
+  padding: 12px 12px;
 }
 .option{
   margin: 10px 0;
