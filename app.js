@@ -1,5 +1,9 @@
 var session = pl.create();
 import { rules } from './rules.mjs';
+String.prototype.replaceAt = function(index, replacement) {
+  return this.substr(0, index) + replacement + this.substr(index + replacement.length);
+}
+
 const btn_submit = document.querySelector('#btn_submit');
 const questions = [
   { 
@@ -31,6 +35,10 @@ const questions = [
       {
         option_name: "korean",
         option_describe: "Hàn Quốc"
+      },
+      {
+        option_name: "germany",
+        option_describe: "Đức"
       },
       {
         option_name: "spanish",
@@ -139,6 +147,14 @@ const questions = [
         option_describe: "Phát triển trí não"
       },
       {
+        option_name: "increasing_resistance",
+        option_describe: "Tăng sức đề kháng"
+      },
+      {
+        option_name: "support_digestive_system",
+        option_describe: "Hỗ trợ hệ tiêu hóa"
+      },
+      {
         option_name: "don't_care",
         option_describe: "Gì cũng được"
       },
@@ -168,13 +184,38 @@ function showResult(){
   session.consult(knowledge);
   session.query("milk(X).");
 
+  let obj = {
+    stop : false,
+    items: {}
+  }
+
   let callback = function(Substitution){
     if(Substitution['links']){
-      let results = document.querySelector('#list-results');
-      results.innerHTML += `<li class="option">${Substitution['links']['X']['id']}</li>`;
+      this.items[Substitution['links']['X']['id']] = 1;
+    }
+    else{
+      this.stop = true;
     }
   }
-  session.answer(callback.bind());
+  while(!obj.stop){
+    session.answer(callback.bind(obj));
+  }
+
+  if(Object.keys(obj.items).length > 0){
+    let results = document.querySelector('#list-results');
+    results.innerHTML = "";
+    for (const key in obj.items) {
+      let nameItem = key.replace(/_/g," ");
+      nameItem = nameItem.replace("so","số ")
+      nameItem = nameItem.replaceAt(0,nameItem.charAt(0).toUpperCase());
+      results.innerHTML += `<li class="option">${nameItem}</li>`;
+    }
+  }
+  else{
+    let results = document.querySelector('#list-results');
+    results.innerHTML = "Không tìm thấy sản phẩm tương ứng"
+  }
+
 }
 
 btn_submit.addEventListener("click", () => {
@@ -192,11 +233,18 @@ btn_submit.addEventListener("click", () => {
     }
     user_answers = user_answers + knowledge + '\n';
   }
+  else{
+    user_answers = "";
+    step = -1;
+    document.querySelector('#list-results').innerHTML = "";
+    btn_submit.value = "Tiếp theo";
+  }
   step++;
   if(step < questions['length']){
     loadSituation(step);
   }
   else{
+    btn_submit.value = "Tư vấn lại";
     showResult();
   }
 })
