@@ -8,7 +8,7 @@ body{
   margin-top: 12px;
 }
 .list-option{
-  height: 300px;
+  min-height: 300px;
 }
 .lable{
   font-size: 28px;
