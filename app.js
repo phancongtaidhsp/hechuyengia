@@ -66,7 +66,7 @@ const questions = [
       },
       {
         option_name: "don't_care",
-        option_describe: "Gì cũng được"
+        option_describe: "Không quan trọng"
       },
     ]
   },
@@ -96,7 +96,7 @@ const questions = [
       },
       {
         option_name: "don't_care",
-        option_describe: "Gì cũng được"
+        option_describe: "Không quan trọng"
       },
     ]
   },
@@ -114,7 +114,7 @@ const questions = [
       },
       {
         option_name: "don't_care",
-        option_describe: "Gì cũng được"
+        option_describe: "Không quan trọng"
       },
     ]
   },
@@ -164,7 +164,7 @@ const questions = [
       },
       {
         option_name: "don't_care",
-        option_describe: "Gì cũng được"
+        option_describe: "Không quan trọng"
       },
     ]
   },
