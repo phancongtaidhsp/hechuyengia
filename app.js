@@ -120,7 +120,7 @@ const questions = [
   },
   { 
     question_name: "functionality",
-    question_describe: "Chức năng?",
+    question_describe: "Chức năng?(có thể chọn 1 hoặc nhiều)",
     options: [
       {
         option_name: "gain_weight",
@@ -151,8 +151,16 @@ const questions = [
         option_describe: "Tăng sức đề kháng"
       },
       {
+        option_name: "increase_immune_system",
+        option_describe: "Tăng cường hệ miễn dịch"
+      },
+      {
         option_name: "support_digestive_system",
         option_describe: "Hỗ trợ hệ tiêu hóa"
+      },
+      {
+        option_name: "growth_vision",
+        option_describe: "Phát triển thị giác"
       },
       {
         option_name: "don't_care",
@@ -166,13 +174,19 @@ let step = 0;
 
 function loadSituation(step){
   let qs = document.querySelector('#qs');
+  let sel = document.querySelector('#sel');
   qs.innerHTML = questions[step]["question_describe"];
+  if(questions[step]['question_name'] === 'functionality'){
+    sel['multiple'] = true;
+  }
+  else{
+    sel['multiple'] = false;
+  }
   let list_options = document.querySelector('#list-options');
   list_options.innerHTML = "";
   for (const option of questions[step]['options']) {
     list_options.innerHTML += `<li class="option">${option['option_describe']}</li>`
   }
-  let sel = document.querySelector('#sel');
   sel.innerHTML = "";
   for (const [i, option] of questions[step]['options'].entries()) {
     sel.innerHTML += `<option value="${option['option_name']}">${i+1}</option>`
@@ -190,12 +204,10 @@ function showResult(){
   }
 
   let callback = function(Substitution){
-    if(Substitution['links']){
+    if(Substitution && Substitution.hasOwnProperty('links')){
       this.items[Substitution['links']['X']['id']] = 1;
     }
-    else{
-      this.stop = true;
-    }
+    else this.stop = true;
   }
   while(!obj.stop){
     session.answer(callback.bind(obj));
@@ -220,16 +232,59 @@ function showResult(){
 
 btn_submit.addEventListener("click", () => {
   if(step < questions['length']){
-    const sel = document.querySelector('#sel');
     let knowledge = "";
-    if(sel['value'] === "don't_care"){
-      for (const option of questions[step]['options']) {
-        if(option['option_name'] !== "don't_care")
-        knowledge += questions[step]['question_name'] + '(' + option['option_name'] +').' + '\n';
+    var values = $('#sel').val();
+    if(questions[step]['question_name'] === 'functionality'){
+      if(Array.isArray(values)){
+        let check = values.indexOf("don't_care");
+        if(check > -1){
+          for (const option of questions[step]['options']) {
+            if(option['option_name'] !== "don't_care")
+            knowledge += questions[step]['question_name'] + '(' + option['option_name'] +').' + '\n';
+          }
+          knowledge += "functionality(fail,fail)."+"\n" + "functionality(fail,fail,fail)." 
+        }
+        else{
+          let temp = '(';
+          for (const value of values) {
+            temp = temp + value + ',';
+          }
+          knowledge = questions[step]['question_name'] + temp.slice(0,temp.length-1) + ').';
+          if(values.length === 1){
+            knowledge += "\n"+ "functionality(fail,fail)."+"\n" + "functionality(fail,fail,fail)." 
+          }
+          else if(values.length === 2){
+            knowledge += "\n" + "functionality(fail)."+"\n" + "functionality(fail,fail,fail)." 
+          }
+          else{
+            knowledge += "\n" + "functionality(fail)."+"\n" + "functionality(fail,fail)." 
+          }
+        }
+      }
+      else{
+        if(values === "don't_care"){
+          for (const option of questions[step]['options']) {
+            if(option['option_name'] !== "don't_care")
+            knowledge += questions[step]['question_name'] + '(' + option['option_name'] +').' + '\n';
+          }
+          knowledge += "functionality(fail,fail)."+"\n" + "functionality(fail,fail,fail)." 
+        }
+        else{
+          knowledge = questions[step]['question_name'] + '(' + values +').';
+          knowledge += "\n" + "functionality(fail,fail)."+"\n" + "functionality(fail,fail,fail)." 
+        }
       }
     }
     else{
-      knowledge = questions[step]['question_name'] + '(' + sel['value'] +').';
+      if(values === "don't_care"){
+        for (const option of questions[step]['options']) {
+          if(option['option_name'] !== "don't_care")
+          knowledge += questions[step]['question_name'] + '(' + option['option_name'] +').' + '\n';
+        }
+      }
+      else{
+        knowledge = questions[step]['question_name'] + '(' + values +').';
+      }
     }
     user_answers = user_answers + knowledge + '\n';
   }

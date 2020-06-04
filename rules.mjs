@@ -25,8 +25,7 @@ milk('Morinaga Hagukumi số 1') :-
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Novalac số 2') :-
   age(six_months_to_one_year),
@@ -47,8 +46,7 @@ milk('Novalac số 2') :-
   origin(france),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(growth_nerve_system).
+  functionality(gain_weight,growth_nerve_system).
 
 milk('Humana số 1') :-
   age(six_months_to_one_year),
@@ -76,33 +74,28 @@ milk('Humana số 1') :-
   origin(germany),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Humana số 1') :-
   age(six_months_to_one_year),
   origin(germany),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(anti_constipation).
+  functionality(gain_weight,anti_constipation).
 
 milk('Humana số 1') :-
   age(six_months_to_one_year),
   origin(germany),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
-  functionality(building_healthy_bones),
-  functionality(anti_constipation).
+  functionality(building_healthy_bones,anti_constipation).
 
 milk('Humana số 1') :-
   age(six_months_to_one_year),
   origin(germany),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones),
-  functionality(anti_constipation).
+  functionality(gain_weight,building_healthy_bones,anti_constipation).
 
 milk('Nan pro số 1') :-
   age(six_months_to_one_year),
@@ -123,8 +116,7 @@ milk('Nan pro số 1') :-
   origin(germany),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(increasing_resistance),
-  functionality(support_digestive_system).
+  functionality(increasing_resistance,support_digestive_system).
 
 milk('Aptamil số 2') :-
   age(six_months_to_one_year),
@@ -145,8 +137,7 @@ milk('Aptamil số 2') :-
   origin(germany),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Enfamil_A+') :-
   age(six_months_to_one_year),
@@ -167,8 +158,14 @@ milk('Enfamil_A+') :-
   origin(usa),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(growth_brain),
-  functionality(increase_immune_system).
+  functionality(growth_brain,increase_immune_system).
+
+milk('Similac neosure') :-
+  age(six_months_to_one_year),
+  origin(usa),
+  price(four-hundred_to_five-hundred),
+  kind_of_milk(powdered_milk),
+  functionality(growth_brain).
 
 milk('Similac neosure') :-
   age(six_months_to_one_year),
@@ -182,15 +179,7 @@ milk('Similac neosure') :-
   origin(usa),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
-  functionality(growth_brain).
-
-milk('Similac neosure') :-
-  age(six_months_to_one_year),
-  origin(usa),
-  price(four-hundred_to_five-hundred),
-  kind_of_milk(powdered_milk),
-  functionality(growth_vision),
-  functionality(growth_brain).
+  functionality(growth_brain,growth_vision).
 
 milk('Enfamil A+ Gentle Care') :-
   age(six_months_to_one_year),
@@ -211,8 +200,7 @@ milk('Enfamil A+ Gentle Care') :-
   origin(usa),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Enfamil LactoFree Care A+1') :-
   age(six_months_to_one_year),
@@ -240,33 +228,28 @@ milk('Enfamil LactoFree Care A+1') :-
   origin(usa),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Enfamil LactoFree Care A+1') :-
   age(six_months_to_one_year),
   origin(usa),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(building_healthy_bones),
-  functionality(anti_constipation).
+  functionality(building_healthy_bones,anti_constipation).
 
 milk('Enfamil LactoFree Care A+1') :-
   age(six_months_to_one_year),
   origin(usa),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(anti_constipation).
+  functionality(gain_weight,anti_constipation).
 
 milk('Enfamil LactoFree Care A+1') :-
   age(six_months_to_one_year),
   origin(usa),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones),
-  functionality(anti_constipation).
+  functionality(gain_weight,building_healthy_bones,anti_constipation).
 
 milk('Enfamil A+2MFGM+DHA') :-
   age(six_months_to_one_year),
@@ -287,8 +270,7 @@ milk('Enfamil A+2MFGM+DHA') :-
   origin(usa),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Regestimil Lipil') :-
   age(six_months_to_one_year),
@@ -316,34 +298,43 @@ milk('Regestimil Lipil') :-
   origin(usa),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Regestimil Lipil') :-
   age(six_months_to_one_year),
   origin(usa),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(building_healthy_bones),
-  functionality(anti_constipation).
+  functionality(building_healthy_bones,anti_constipation).
 
 milk('Regestimil Lipil') :-
   age(six_months_to_one_year),
   origin(usa),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(anti_constipation).
+  functionality(gain_weight,anti_constipation).
 
 milk('Regestimil Lipil') :-
   age(six_months_to_one_year),
   origin(usa),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones),
-  functionality(anti_constipation).
-  
+  functionality(gain_weight,building_healthy_bones,anti_constipation).
+
+milk('Dielac Optimum Số2') :-
+  age(six_months_to_one_year),
+  origin(vietnam),
+  price(three-hundred_to_four-hundred),
+  kind_of_milk(powdered_milk),
+  functionality(growth_brain).
+
+milk('Dielac Optimum Số2') :-
+  age(six_months_to_one_year),
+  origin(vietnam),
+  price(three-hundred_to_four-hundred),
+  kind_of_milk(powdered_milk),
+  functionality(increase_immune_system).
+
 milk('Dielac Optimum Số2') :-
   age(six_months_to_one_year),
   origin(vietnam),
@@ -356,47 +347,28 @@ milk('Dielac Optimum Số2') :-
   origin(vietnam),
   price(three-hundred_to_four-hundred),
   kind_of_milk(powdered_milk),
-  functionality(growth_brain).
+  functionality(growth_brain,growth_vision).
 
 milk('Dielac Optimum Số2') :-
   age(six_months_to_one_year),
   origin(vietnam),
   price(three-hundred_to_four-hundred),
   kind_of_milk(powdered_milk),
-  functionality(increase_immune_system).
+  functionality(growth_brain,increase_immune_system).
 
 milk('Dielac Optimum Số2') :-
   age(six_months_to_one_year),
   origin(vietnam),
   price(three-hundred_to_four-hundred),
   kind_of_milk(powdered_milk),
-  functionality(growth_vision),
-  functionality(growth_brain).
+  functionality(increase_immune_system,growth_vision).
 
 milk('Dielac Optimum Số2') :-
   age(six_months_to_one_year),
   origin(vietnam),
   price(three-hundred_to_four-hundred),
   kind_of_milk(powdered_milk),
-  functionality(growth_brain),
-  functionality(increase_immune_system).
-
-milk('Dielac Optimum Số2') :-
-  age(six_months_to_one_year),
-  origin(vietnam),
-  price(three-hundred_to_four-hundred),
-  kind_of_milk(powdered_milk),
-  functionality(growth_vision),
-  functionality(increase_immune_system).
-
-milk('Dielac Optimum Số2') :-
-  age(six_months_to_one_year),
-  origin(vietnam),
-  price(three-hundred_to_four-hundred),
-  kind_of_milk(powdered_milk),
-  functionality(growth_vision),
-  functionality(growth_brain),
-  functionality(increase_immune_system).
+  functionality(growth_brain,increase_immune_system,growth_vision).
 
 milk('XO') :-
   age(six_months_to_one_year),
@@ -424,33 +396,28 @@ milk('XO') :-
   origin(korean),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('XO') :-
   age(six_months_to_one_year),
   origin(korean),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(building_healthy_bones),
-  functionality(anti_constipation).
+  functionality(building_healthy_bones,anti_constipation).
 
 milk('XO') :-
   age(six_months_to_one_year),
   origin(korean),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(anti_constipation).
+  functionality(gain_weight,anti_constipation).
 
 milk('XO') :-
   age(six_months_to_one_year),
   origin(korean),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones),
-  functionality(anti_constipation).
+  functionality(gain_weight,building_healthy_bones,anti_constipation).
 
 milk('with mom số 2') :-
   age(six_months_to_one_year),
@@ -464,13 +431,6 @@ milk('with mom số 2') :-
   origin(korean),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
-  functionality(growth_vision).
-  
-milk('with mom số 2') :-
-  age(six_months_to_one_year),
-  origin(korean),
-  price(six-hundred_to_seven-hundred),
-  kind_of_milk(powdered_milk),
   functionality(growth_brain).
 
 milk('with mom số 2') :-
@@ -478,7 +438,6 @@ milk('with mom số 2') :-
   origin(korean),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
   functionality(growth_vision).
 
 milk('with mom số 2') :-
@@ -486,25 +445,28 @@ milk('with mom số 2') :-
   origin(korean),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
-  functionality(growth_vision),
-  functionality(growth_brain).
+  functionality(gain_weight,growth_vision).
 
 milk('with mom số 2') :-
   age(six_months_to_one_year),
   origin(korean),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(growth_brain).
+  functionality(growth_brain,growth_vision).
 
 milk('with mom số 2') :-
   age(six_months_to_one_year),
   origin(korean),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(growth_vision),
-  functionality(growth_brain).
+  functionality(gain_weight,growth_brain).
+
+milk('with mom số 2') :-
+  age(six_months_to_one_year),
+  origin(korean),
+  price(six-hundred_to_seven-hundred),
+  kind_of_milk(powdered_milk),
+  functionality(gain_weight,growth_brain,growth_vision).
 
 milk('Blemi Plus số 2') :-
   age(six_months_to_one_year),
@@ -525,8 +487,7 @@ milk('Blemi Plus số 2') :-
   origin(spanish),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Blemi Plus số 2') :-
   age(six_months_to_one_year),
@@ -547,8 +508,7 @@ milk('Blemi Plus số 2') :-
   origin(spanish),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(growth_nerve_system).
+  functionality(gain_weight,growth_nerve_system).
 
 milk('Dê with mom số 2') :-
   age(six_months_to_one_year),
@@ -569,6 +529,5 @@ milk('Dê with mom số 2') :-
   origin(england),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain_weight),
-  functionality(building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 `;
