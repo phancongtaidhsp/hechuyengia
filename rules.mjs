@@ -2026,7 +2026,7 @@ milk('Meiji_so9') :-
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight).
+  functionality(gain_weight).
 
 milk('Meiji_so9') :-
   age(greater_two_years),
@@ -2047,7 +2047,7 @@ milk('Meiji_so9') :-
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Meiji_so9') :-
   age(greater_two_years),
@@ -2061,21 +2061,21 @@ milk('Meiji_so9') :-
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,growth_nerve_system).
+  functionality(gain_weight,growth_nerve_system).
 
 milk('Meiji_so9') :-
   age(greater_two_years),
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,building_healthy_bones,growth_nerve_system).
+  functionality(gain_weight,building_healthy_bones,growth_nerve_system).
 
 milk('Morinaga_so9') :-
   age(greater_two_years),
   origin(japan),
   price(three-hundred_to_four-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight).
+  functionality(gain_weight).
 
 milk('Morinaga_so9') :-
   age(greater_two_years),
@@ -2089,14 +2089,14 @@ milk('Morinaga_so9') :-
   origin(japan),
   price(three-hundred_to_four-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,growth_nerve_system).
+  functionality(gain_weight,growth_nerve_system).
 
 milk('Star_Gold_so4') :-
   age(greater_two_years),
   origin(korea),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight).
+  functionality(gain_weight).
 
 milk('Star_Gold_so4') :-
   age(greater_two_years),
@@ -2117,7 +2117,7 @@ milk('Star_Gold_so4') :-
   origin(korea),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Star_Gold_so4') :-
   age(greater_two_years),
@@ -2131,21 +2131,21 @@ milk('Star_Gold_so4') :-
   origin(korea),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,growth_nerve_system).
+  functionality(gain_weight,growth_nerve_system).
 
 milk('Star_Gold_so4') :-
   age(greater_two_years),
   origin(korea),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,building_healthy_bones,growth_nerve_system).
+  functionality(gain_weight,building_healthy_bones,growth_nerve_system).
 
 milk('Friso_Gold_Pedia') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight).
+  functionality(gain_weight).
 
 milk('Friso_Gold_Pedia') :-
   age(greater_two_years),
@@ -2166,7 +2166,7 @@ milk('Friso_Gold_Pedia') :-
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Friso_Gold_Pedia') :-
   age(greater_two_years),
@@ -2180,21 +2180,21 @@ milk('Friso_Gold_Pedia') :-
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,growth_nerve_system).
+  functionality(gain_weight,growth_nerve_system).
 
 milk('Friso_Gold_Pedia') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,building_healthy_bones,growth_nerve_system).
+  functionality(gain_weight,building_healthy_bones,growth_nerve_system).
 
 milk('Dielac_Grow_Plus_2+') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight).
+  functionality(gain_weight).
 
 milk('Dielac_Grow_Plus_2+') :-
   age(greater_two_years),
@@ -2215,7 +2215,7 @@ milk('Dielac_Grow_Plus_2+') :-
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Dielac_Grow_Plus_2+') :-
   age(greater_two_years),
@@ -2229,21 +2229,21 @@ milk('Dielac_Grow_Plus_2+') :-
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,growth_nerve_system).
+  functionality(gain_weight,growth_nerve_system).
 
 milk('Dielac_Grow_Plus_2+') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,building_healthy_bones,growth_nerve_system).
+  functionality(gain_weight,building_healthy_bones,growth_nerve_system).
 
 milk('Kid_Essentials') :-
   age(greater_two_years),
   origin(australia),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight).
+  functionality(gain_weight).
 
 milk('Kid_Essentials') :-
   age(greater_two_years),
@@ -2257,14 +2257,14 @@ milk('Kid_Essentials') :-
   origin(australia),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,anti_constipation).
+  functionality(gain_weight,anti_constipation).
 
 milk('Kidsure') :-
   age(greater_two_years),
   origin(holland),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight).
+  functionality(gain_weight).
 
 milk('Kidsure') :-
   age(greater_two_years),
@@ -2285,7 +2285,7 @@ milk('Kidsure') :-
   origin(holland),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,building_healthy_bones).
+  functionality(gain_weight,building_healthy_bones).
 
 milk('Kidsure') :-
   age(greater_two_years),
@@ -2299,14 +2299,14 @@ milk('Kidsure') :-
   origin(holland),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,growth_nerve_system).
+  functionality(gain_weight,growth_nerve_system).
 
 milk('Kidsure') :-
   age(greater_two_years),
   origin(holland),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
-  functionality(gain-weight,building_healthy_bones,growth_nerve_system).
+  functionality(gain_weight,building_healthy_bones,growth_nerve_system).
 
 milk('Royal_Ausnz_Premium_Gold_3_Todder_Milk_Drink') :-
   age(one_year_to_two_years),
