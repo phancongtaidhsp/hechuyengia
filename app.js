@@ -11,7 +11,7 @@ const questions = [
     question_describe: "Độ tuổi của bé?",
     options: [
       {
-        option_name: "less_six_months",
+        option_name: "six_months",
         option_describe: "Từ 0 đến 6 tháng tuổi"
       },
       {
@@ -37,8 +37,28 @@ const questions = [
         option_describe: "Hàn Quốc"
       },
       {
+        option_name: "newzealand",
+        option_describe: "New Zealand"
+      },
+      {
+        option_name: "thailand",
+        option_describe: "Thái Lan"
+      },
+      {
         option_name: "germany",
         option_describe: "Đức"
+      },
+      {
+        option_name: "holland",
+        option_describe: "Hà Lan"
+      },
+      {
+        option_name: "denmark",
+        option_describe: "Đan Mạch"
+      },
+      {
+        option_name: "canada",
+        option_describe: "Canada"
       },
       {
         option_name: "spanish",
@@ -61,8 +81,16 @@ const questions = [
         option_describe: "Việt Nam"
       },
       {
+        option_name: "australia",
+        option_describe: "Úc"
+      },
+      {
         option_name: "france",
         option_describe: "Pháp"
+      },
+      {
+        option_name: "switzerland",
+        option_describe: "Switzerland"
       },
       {
         option_name: "don't_care",
@@ -125,6 +153,10 @@ const questions = [
       {
         option_name: "gain_weight",
         option_describe: "Hỗ trợ tăng cân"
+      },
+      {
+        option_name: "growth_height",
+        option_describe: "Phát triển chiều cao"
       },
       {
         option_name: "growth_healthy",
@@ -220,7 +252,7 @@ function showResult(){
       let nameItem = key.replace(/_/g," ");
       nameItem = nameItem.replace("so","số ")
       nameItem = nameItem.replaceAt(0,nameItem.charAt(0).toUpperCase());
-      results.innerHTML += `<li class="option">${nameItem}</li>`;
+      results.innerHTML += `<li class="option">${nameItem} <img src="/images/Vinlac.jpg"></img></li>`;
     }
   }
   else{

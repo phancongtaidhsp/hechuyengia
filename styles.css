@@ -1,5 +1,6 @@
 body{
   font-family: 'Baloo Chettan 2', cursive;
+  background-image: url(./images/bg.jpg);
 }
 .title{
   text-align: center;
@@ -25,6 +26,7 @@ body{
   border: 1px solid black;
   margin-bottom: 16px;
   padding: 12px 12px;
+  background-color: white;
 }
 .option{
   margin: 10px 0;
