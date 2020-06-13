@@ -201,6 +201,11 @@ const questions = [
     ]
   },
 ];
+let products = [
+  {
+
+  }
+];
 let user_answers = "";
 let step = 0;
 
@@ -217,7 +222,7 @@ function loadSituation(step){
   let list_options = document.querySelector('#list-options');
   list_options.innerHTML = "";
   for (const option of questions[step]['options']) {
-    list_options.innerHTML += `<li class="option">${option['option_describe']}</li>`
+    list_options.innerHTML += `<li class="option-question">${option['option_describe']}</li>`
   }
   sel.innerHTML = "";
   for (const [i, option] of questions[step]['options'].entries()) {
@@ -249,10 +254,12 @@ function showResult(){
     let results = document.querySelector('#list-results');
     results.innerHTML = "";
     for (const key in obj.items) {
-      let nameItem = key.replace(/_/g," ");
-      nameItem = nameItem.replace("so","số ")
-      nameItem = nameItem.replaceAt(0,nameItem.charAt(0).toUpperCase());
-      results.innerHTML += `<li class="option">${nameItem} <img src="/images/Vinlac.jpg"></img></li>`;
+      results.innerHTML += `<li class="option">
+      <img width="200px" src="/images/${key}.jpg"></img>
+      <div class="option_content">
+        <span class="option_name">${key}</span>
+      </div>
+    </li>`;
     }
   }
   else{

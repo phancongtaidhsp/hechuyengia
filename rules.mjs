@@ -1,5 +1,5 @@
 export const rules = `
-milk('Meiji_số 1') :-
+milk('Meiji số 1') :-
   age(six_months_to_one_year),
   origin(japan),
   price(four-hundred_to_five-hundred),
@@ -139,21 +139,21 @@ milk('Aptamil số 2') :-
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones).
 
-milk('Enfamil_A+') :-
+milk('Enfamil A+') :-
   age(six_months_to_one_year),
   origin(usa),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(growth_brain).
 
-milk('Enfamil_A+') :-
+milk('Enfamil A+') :-
   age(six_months_to_one_year),
   origin(usa),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(increase_immune_system).
 
-milk('Enfamil_A+') :-
+milk('Enfamil A+') :-
   age(six_months_to_one_year),
   origin(usa),
   price(five-hundred_to_six-hundred),
@@ -615,37 +615,37 @@ milk('Vinamilk'):-
   price(two-hundred_to_three-hundred),
   functionality(gain_weight,growth_height).
   
-milk('Royal_Miller'):-
+milk('Royal Miller'):-
   age(six_months_to_one_year),
   origin(germany),
   price(four-hundred_to_five-hundred),
   functionality(growth_height).
 
-milk('Royal_Miller'):-
+milk('Royal Miller'):-
   age(six_months_to_one_year),
   origin(germany),
   price(four-hundred_to_five-hundred),
   functionality(growth_brain).
 
-milk('Royal_Miller'):-
+milk('Royal Miller'):-
   age(six_months_to_one_year),
   origin(germany),
   price(four-hundred_to_five-hundred),
   functionality(growth_height,growth_brain).
   
-milk('Lemontree_Dairy'):-
+milk('Lemontree Dairy'):-
   age(six_months_to_one_year),
   origin(australia),
   price(three-hundred_to_four-hundred),
   functionality(growth_brain).
 
-milk('Lemontree_Dairy'):-
+milk('Lemontree Dairy'):-
   age(six_months_to_one_year),
   origin(australia),
   price(three-hundred_to_four-hundred),
   functionality(growth_vision).
 
-milk('Lemontree_Dairy'):-
+milk('Lemontree Dairy'):-
   age(six_months_to_one_year),
   origin(australia),
   price(three-hundred_to_four-hundred),
@@ -2021,238 +2021,238 @@ milk('Enfagrow A+') :-
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones).
 
-milk('Meiji_so9') :-
+milk('Meiji số 9') :-
   age(greater_two_years),
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight).
 
-milk('Meiji_so9') :-
+milk('Meiji số 9') :-
   age(greater_two_years),
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(building_healthy_bones).
 
-milk('Meiji_so9') :-
+milk('Meiji số 9') :-
   age(greater_two_years),
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(growth_nerve_system).
 
-milk('Meiji_so9') :-
+milk('Meiji số 9') :-
   age(greater_two_years),
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones).
 
-milk('Meiji_so9') :-
+milk('Meiji số 9') :-
   age(greater_two_years),
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain-building_healthy_bones,growth_nerve_system).
 
-milk('Meiji_so9') :-
+milk('Meiji số 9') :-
   age(greater_two_years),
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,growth_nerve_system).
 
-milk('Meiji_so9') :-
+milk('Meiji số 9') :-
   age(greater_two_years),
   origin(japan),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones,growth_nerve_system).
 
-milk('Morinaga_so9') :-
+milk('Morinaga số 9') :-
   age(greater_two_years),
   origin(japan),
   price(three-hundred_to_four-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight).
 
-milk('Morinaga_so9') :-
+milk('Morinaga số 9') :-
   age(greater_two_years),
   origin(japan),
   price(three-hundred_to_four-hundred),
   kind_of_milk(powdered_milk),
   functionality(growth_nerve_system).
 
-milk('Morinaga_so9') :-
+milk('Morinaga số 9') :-
   age(greater_two_years),
   origin(japan),
   price(three-hundred_to_four-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,growth_nerve_system).
 
-milk('Star_Gold_so4') :-
+milk('Star Gold số 4') :-
   age(greater_two_years),
   origin(korea),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight).
 
-milk('Star_Gold_so4') :-
+milk('Star Gold số 4') :-
   age(greater_two_years),
   origin(korea),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
   functionality(building_healthy_bones).
 
-milk('Star_Gold_so4') :-
+milk('Star Gold số 4') :-
   age(greater_two_years),
   origin(korea),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
   functionality(growth_nerve_system).
 
-milk('Star_Gold_so4') :-
+milk('Star Gold số 4') :-
   age(greater_two_years),
   origin(korea),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones).
 
-milk('Star_Gold_so4') :-
+milk('Star Gold số 4') :-
   age(greater_two_years),
   origin(korea),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
   functionality(building_healthy_bones,growth_nerve_system).
 
-milk('Star_Gold_so4') :-
+milk('Star Gold số 4') :-
   age(greater_two_years),
   origin(korea),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,growth_nerve_system).
 
-milk('Star_Gold_so4') :-
+milk('Star Gold số 4') :-
   age(greater_two_years),
   origin(korea),
   price(two-hundred_to_three-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones,growth_nerve_system).
 
-milk('Friso_Gold_Pedia') :-
+milk('Friso Gold Pedia') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight).
 
-milk('Friso_Gold_Pedia') :-
+milk('Friso Gold Pedia') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(building_healthy_bones).
 
-milk('Friso_Gold_Pedia') :-
+milk('Friso Gold Pedia') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(growth_nerve_system).
 
-milk('Friso_Gold_Pedia') :-
+milk('Friso Gold Pedia') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones).
 
-milk('Friso_Gold_Pedia') :-
+milk('Friso Gold Pedia') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(building_healthy_bones,growth_nerve_system).
 
-milk('Friso_Gold_Pedia') :-
+milk('Friso Gold Pedia') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,growth_nerve_system).
 
-milk('Friso_Gold_Pedia') :-
+milk('Friso Gold Pedia') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones,growth_nerve_system).
 
-milk('Dielac_Grow_Plus_2+') :-
+milk('Dielac Grow Plus 2+') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight).
 
-milk('Dielac_Grow_Plus_2+') :-
+milk('Dielac Grow Plus 2+') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(building_healthy_bones).
 
-milk('Dielac_Grow_Plus_2+') :-
+milk('Dielac Grow Plus 2+') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(growth_nerve_system).
 
-milk('Dielac_Grow_Plus_2+') :-
+milk('Dielac Grow Plus 2+') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones).
 
-milk('Dielac_Grow_Plus_2+') :-
+milk('Dielac Grow Plus 2+') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(building_healthy_bones,growth_nerve_system).
 
-milk('Dielac_Grow_Plus_2+') :-
+milk('Dielac Grow Plus 2+') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,growth_nerve_system).
 
-milk('Dielac_Grow_Plus_2+') :-
+milk('Dielac Grow Plus 2+') :-
   age(greater_two_years),
   origin(holland),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones,growth_nerve_system).
 
-milk('Kid_Essentials') :-
+milk('Kid Essentials') :-
   age(greater_two_years),
   origin(australia),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight).
 
-milk('Kid_Essentials') :-
+milk('Kid Essentials') :-
   age(greater_two_years),
   origin(australia),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
   functionality(anti_constipation).
 
-milk('Kid_Essentials') :-
+milk('Kid Essentials') :-
   age(greater_two_years),
   origin(australia),
   price(six-hundred_to_seven-hundred),
@@ -2308,56 +2308,56 @@ milk('Kidsure') :-
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones,growth_nerve_system).
 
-milk('Royal_Ausnz_Premium_Gold_3_Todder_Milk_Drink') :-
+milk('Royal Ausnz Premium Gold 3 Todder Milk Drink') :-
   age(one_year_to_two_years),
   origin(australia),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
   functionality(growth_brain).
 
-milk('Aptamil_Toddler_Gold+_3') :-
+milk('Aptamil Toddler Gold+3') :-
   age(one_year_to_two_years),
   origin(england),
   price(six-hundred_to_seven-hundred),
   kind_of_milk(powdered_milk),
   functionality(building_healthy_bones).
 
-milk('Frisolac_Gold_3') :-
+milk('Frisolac Gold 3') :-
   age(one_year_to_two_years),
   origin(holland),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight).
 
-milk('Frisolac_Gold_3') :-
+milk('Frisolac Gold 3') :-
   age(one_year_to_two_years),
   origin(holland),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(building_healthy_bones).
 
-milk('Frisolac_Gold_3') :-
+milk('Frisolac Gold 3') :-
   age(one_year_to_two_years),
   origin(holland),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight,building_healthy_bones).
 
-milk('Similac_IQ_Plus_số_3') :-
+milk('Similac IQ Plus số 3') :-
   age(one_year_to_two_years),
   origin(usa),
   price(five-hundred_to_six-hundred),
   kind_of_milk(powdered_milk),
   functionality(growth_nerve_system).
 
-milk('Physiolac_3') :-
+milk('Physiolac 3') :-
   age(one_year_to_two_years),
   origin(france),
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(growth_healthy).
 
-milk('Dielac_Grow_Pro') :-
+milk('Dielac Grow Pro') :-
   age(one_year_to_two_years),
   origin(usa),
   price(two-hundred_to_three-hundred),
@@ -2370,5 +2370,4 @@ milk('Milex') :-
   price(four-hundred_to_five-hundred),
   kind_of_milk(powdered_milk),
   functionality(gain_weight).
-
 `;
