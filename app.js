@@ -253,6 +253,7 @@ function showResult(){
   if(Object.keys(obj.items).length > 0){
     let results = document.querySelector('#list-results');
     results.innerHTML = "";
+    console.log(obj.items)
     for (const key in obj.items) {
       results.innerHTML += `<li class="option">
       <img width="200px" src="/images/${key}.jpg"></img>
