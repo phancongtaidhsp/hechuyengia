@@ -44,7 +44,7 @@ body{
 }
 .above{
   border: 1px solid black;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   padding: 12px 12px;
   background-color: white;
 }
@@ -59,6 +59,7 @@ body{
   background-color: white;
   padding: 10px;
   border: 1px solid black;
+  margin-bottom: 20px;
 }
 .answer_select{
   margin: 0;
