@@ -534,174 +534,203 @@ milk('Dê with mom số 2') :-
 milk('Meadow Fresh'):-
   age(six_months_to_one_year),
   origin(newzealand),
+  kind_of_milk(whole_milk),
   price(four-hundred_to_five-hundred),
   functionality(building_healthy_bones).
   
 milk('Breton'):-
   age(six_months_to_one_year),
   origin(france),
+  kind_of_milk(whole_milk),
   price(five-hundred_to_six-hundred),
   functionality(gain_weight).
 
 milk('Breton'):-
   age(six_months_to_one_year),
   origin(france),
+  kind_of_milk(whole_milk),
   price(five-hundred_to_six-hundred),
   functionality(growth_brain).
 
 milk('Breton'):-
   age(six_months_to_one_year),
   origin(france),
+  kind_of_milk(whole_milk),
   price(five-hundred_to_six-hundred),
   functionality(gain_weight,growth_brain).
   
 milk('Devondale'):-
   age(six_months_to_one_year),
   origin(australia),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(gain_height).
 
 milk('Devondale'):-
   age(six_months_to_one_year),
   origin(australia),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(growth_vision).
 
 milk('Devondale'):-
   age(six_months_to_one_year),
   origin(australia),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(gain_height,growth_vision).
   
 milk('Australia’s Own'):-
   age(six_months_to_one_year),
   origin(australia),
+  kind_of_milk(whole_milk),
   price(four-hundred_to_five-hundred),
   functionality(building_healthy_bones).
   
 milk('Promess'):-
   age(six_months_to_one_year),
   origin(france),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(increasing_resistance).
 
 milk('Promess'):-
   age(six_months_to_one_year),
   origin(france),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(support_digestive_system).
 
 milk('Promess'):-
   age(six_months_to_one_year),
   origin(france),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(increasing_resistance,support_digestive_system).
   
 milk('Vinamilk'):-
   age(six_months_to_one_year),
   origin(vietnam),
+  kind_of_milk(whole_milk),
   price(two-hundred_to_three-hundred),
   functionality(gain_weight).
 
 milk('Vinamilk'):-
   age(six_months_to_one_year),
   origin(vietnam),
+  kind_of_milk(whole_milk),
   price(two-hundred_to_three-hundred),
   functionality(growth_height).
 
 milk('Vinamilk'):-
   age(six_months_to_one_year),
   origin(vietnam),
+  kind_of_milk(whole_milk),
   price(two-hundred_to_three-hundred),
   functionality(gain_weight,growth_height).
   
 milk('Royal Miller'):-
   age(six_months_to_one_year),
   origin(germany),
+  kind_of_milk(whole_milk),
   price(four-hundred_to_five-hundred),
   functionality(growth_height).
 
 milk('Royal Miller'):-
   age(six_months_to_one_year),
   origin(germany),
+  kind_of_milk(whole_milk),
   price(four-hundred_to_five-hundred),
   functionality(growth_brain).
 
 milk('Royal Miller'):-
   age(six_months_to_one_year),
   origin(germany),
+  kind_of_milk(whole_milk),
   price(four-hundred_to_five-hundred),
   functionality(growth_height,growth_brain).
   
 milk('Lemontree Dairy'):-
   age(six_months_to_one_year),
   origin(australia),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(growth_brain).
 
 milk('Lemontree Dairy'):-
   age(six_months_to_one_year),
   origin(australia),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(growth_vision).
 
 milk('Lemontree Dairy'):-
   age(six_months_to_one_year),
   origin(australia),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(growth_brain,growth_vision).
   
 milk('Anchor'):-
   age(six_months_to_one_year),
   origin(newzealand),
+  kind_of_milk(whole_milk),
   price(two-hundred_to_three-hundred),
   functionality(gain_weight).
 
 milk('Anchor'):-
   age(six_months_to_one_year),
   origin(newzealand),
+  kind_of_milk(whole_milk),
   price(two-hundred_to_three-hundred),
   functionality(building_healthy_bones).
 
 milk('Anchor'):-
   age(six_months_to_one_year),
   origin(newzealand),
+  kind_of_milk(whole_milk),
   price(two-hundred_to_three-hundred),
   functionality(gain_weight,building_healthy_bones).
   
 milk('DJA'):-
   age(six_months_to_one_year),
   origin(australia),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(gain_weight).
 
 milk('DJA'):-
   age(six_months_to_one_year),
   origin(australia),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(building_healthy_bones).
 
 milk('DJA'):-
   age(six_months_to_one_year),
   origin(australia),
+  kind_of_milk(whole_milk),
   price(three-hundred_to_four-hundred),
   functionality(gain_weight,building_healthy_bones).
   
 milk('Lait'):-
   age(six_months_to_one_year),
   origin(france),
+  kind_of_milk(whole_milk),
   price(five-hundred_to_six-hundred),
   functionality(gain_weight).
 
 milk('Lait'):-
   age(six_months_to_one_year),
   origin(france),
+  kind_of_milk(whole_milk),
   price(five-hundred_to_six-hundred),
   functionality(building_healthy_bones).
 
 milk('Lait'):-
   age(six_months_to_one_year),
   origin(france),
+  kind_of_milk(whole_milk),
   price(five-hundred_to_six-hundred),
   functionality(gain_weight,building_healthy_bones).
 

@@ -137,8 +137,8 @@ const questions = [
         option_describe: "Sữa bột"
       },
       {
-        option_name: "water_milk",
-        option_describe: "Sữa nước"
+        option_name: "whole_milk",
+        option_describe: "Sữa nguyên chất"
       },
       {
         option_name: "don't_care",
