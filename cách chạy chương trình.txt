@@ -1,0 +1,1 @@
+mở file index.html bằng browser bất kỳ

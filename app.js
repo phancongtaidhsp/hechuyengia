@@ -201,11 +201,6 @@ const questions = [
     ]
   },
 ];
-let products = [
-  {
-
-  }
-];
 let user_answers = "";
 let step = 0;
 
